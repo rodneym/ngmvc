@@ -1,0 +1,12 @@
+doctype 5
+html()
+  head
+    script(data-main='js/main', src='js/lib/require.js')
+    
+ body
+    div(ng-controller="contactController")
+      h2(ng-bind="fullName() || '?'") 
+      p age 
+        span(ng-bind='card.age')
+      p phone
+        span(ng-bind='card.telephone') 
