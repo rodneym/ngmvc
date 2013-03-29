@@ -21,6 +21,7 @@ app.configure(function(){
   app.use(express.bodyParser());
   app.use(express.methodOverride());
   app.use(app.router);
+  app.use(ngmvc.mount(path.join(__dirname, 'controllers')));
   app.use(express.static(path.join(__dirname, 'public')));
 });
 
@@ -28,7 +29,7 @@ app.configure('development', function(){
   app.use(express.errorHandler());
 });
 
-ngmvc.mount(app, {controllersPath: path.join(__dirname, 'controllers')});
+//ngmvc.mount(app, {controllersPath: path.join(__dirname, 'controllers')});
 
 
 http.createServer(app).listen(app.get('port'), function(){
