@@ -1,0 +1,24 @@
+{
+  "name": "ngmvc",
+  "version": "0.0.0",
+  "description": "express.js mvc engine for angular.js apps",
+  "main": "lib/ngmvc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rodneym/ngmvc.git"
+  },
+  "keywords": [
+    "mvc",
+    "angular.js",
+    "express.js",
+    "ajax",
+    ""
+  ],
+  "author": "Rodney Muras",
+  "license": "Mit",
+  "readmeFilename": "README.md",
+  "gitHead": "1258989f63735881fc2302a049a73f314e86a314"
+}
