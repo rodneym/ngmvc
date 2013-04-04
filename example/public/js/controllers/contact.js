@@ -8,7 +8,7 @@
 function contactController($scope, $http) {
 
 	$http({
-		url: '/contact/card',
+		url: '/contact/card/777',
 		method: "GET", 
 	}).success(function(data, status, headers, config) {
 		$scope.card = data;

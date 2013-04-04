@@ -4,7 +4,7 @@
 define(
   'app'
   ,[
-    'js/lib/angularjs/angular.js'
+    '/js/lib/angularjs/angular.js'
   ]
   ,function() {
     var angularModule = angular.module('myapp', []);
